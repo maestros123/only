@@ -23,7 +23,7 @@
 1. Склонируйте репозиторий на локальную машину:
 
     ```bash
-    git clone https://github.com/your_username/your_project.git
+    git clone https://github.com/maestros123/only.git
     ```
 
 2. Перейдите в директорию проекта:
