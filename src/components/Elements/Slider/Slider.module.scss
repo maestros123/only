@@ -1,0 +1,32 @@
+.container {
+  margin: 0 20px;
+}
+
+.swiper {
+  padding: 0 60px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.title {
+  font-size: 25px;
+  color: #3877EE;
+  margin-bottom: 15px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.text {
+  font-size: 20px;
+  color: #42567A;
+}
+
+@media all and (max-width: 351px){
+  .container {
+    order:1;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .swiper {
+    padding: 0 20px 78px;
+  }
+}

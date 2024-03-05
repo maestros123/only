@@ -1,0 +1,44 @@
+{
+  "name": "only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/sass": "^1.45.0",
+    "css-loader": "^6.10.0",
+    "gsap": "^3.12.5",
+    "media-query-plugin": "^1.5.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss": "^8.4.35",
+    "postcss-loader": "^8.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.4",
+    "swiper": "^11.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/node-sass": "^4.11.7",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@types/sass-loader": "^8.0.8",
+    "@types/webpack-env": "^1.18.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
